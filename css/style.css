@@ -1,0 +1,1310 @@
+/*
+	  ==============================================================
+		   DEFAULT CSS START
+	  ==============================================================
+*/
+header {
+	margin-bottom: -20px;
+}
+
+.iq_wrapper,
+header,
+section,
+.section,
+.iq_content_wrap,
+footer {
+	float: left;
+	width: 100%;
+}
+
+.iq_wrapper,
+section,
+footer {
+	overflow: hidden;
+}
+
+.section,
+section,
+.iq_footer_bg {
+	padding: 20px 0px 20px;
+}
+
+a:focus {
+	color: #333;
+}
+
+.thumb {
+	float: left;
+	width: 100;
+	position: relative;
+}
+
+.overflow-text {
+	float: none;
+	width: auto;
+	overflow: hidden;
+}
+
+/*
+	  ==============================================================
+		   DEFAULT CSS END
+	  ==============================================================
+*/
+/* ================== LOGO WRAP CSS START ==================*/
+.iq_header_1 .iq_logo {
+	float: left;
+}
+
+.iq_header_1 .iq_logo a {
+	display: block;
+}
+
+/* ================== LOGO WRAP CSS End ==================*/
+/* ================== UI ELEMENT WRAP CSS START ==================*/
+.iq_header_1 .iq_ui_element {
+	width: 100%;
+	padding: 0 0 0 170px;
+}
+
+/*Top Strip Wrap CSS*/
+.iq_header_1 .iq_top_strip {
+	float: left;
+	width: 100%;
+	padding: 15px 0px;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.iq_top_contact span {
+	float: left;
+	color: #000000;
+	font-size: 14px;
+}
+
+.iq_top_contact span {
+	margin-left: 20px;
+}
+
+.iq_top_contact span:first-child {
+	margin: 0;
+}
+
+/* ================== UI ELEMENT WRAP CSS End ==================*/
+/* ================== Navigation WRAP CSS START ==================*/
+.navigation-wrapper {
+	padding: 2px 0;
+	width: 100%;
+}
+
+.navigation ul li {
+	float: left;
+	position: relative;
+}
+
+.navigation ul li a {
+	z-index: 1;
+	display: block;
+	color: #333333;
+	font-size: 16px;
+	padding: 8px 23px;
+	position: relative;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.navigation ul li a:before {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	width: 0;
+	height: 0;
+	z-index: -1;
+}
+
+.navigation ul li.active>a:before,
+.navigation ul li:hover>a:before {
+	width: 100%;
+	height: 2px;
+}
+
+/* ================== Navigation Drop Down CSS START ==================*/
+.navigation .children {
+	left: 0;
+	top: 100%;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+	z-index: 1000;
+	min-width: 280px;
+	position: absolute;
+	background-color: #fff;
+	border: solid 1px #dbdbdb;
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-o-transform-origin: 0% 0%;
+	transform-origin: 0% 0%;
+	-webkit-transition: transform 0.3s, opacity 0.3s;
+	-moz-transition: transform 0.3s, opacity 0.3s;
+	-ms-transition: transform 0.3s, opacity 0.3s;
+	-o-transition: transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-ms-transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-o-transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-ms-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-o-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, -webkit-transform 0.3s;
+}
+
+.navigation ul li .children {
+	visibility: hidden;
+	-webkit-transform: rotateX(-75deg);
+	-moz-transform: rotateX(-75deg);
+	-ms-transform: rotateX(-75deg);
+	-o-transform: rotateX(-75deg);
+	transform: rotateX(-75deg);
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.navigation ul li:hover>.children {
+	opacity: 1;
+	visibility: visible;
+	transform: rotateX(0deg);
+	-o-transform: rotateX(0deg);
+	-ms-transform: rotateX(0deg);
+	-moz-transform: rotateX(0deg);
+	-webkit-transform: rotateX(0deg);
+}
+
+.navigation ul li .children .children {
+	top: 0;
+	left: 100%;
+}
+
+.navigation ul li.last .children {
+	right: 0;
+	left: auto;
+}
+
+.navigation ul li.last .children .children {
+	left: auto;
+	right: 100%;
+}
+
+.navigation ul li .children li {
+	margin: 0;
+	float: left;
+	width: 100%;
+}
+
+.navigation ul li .children a {
+	z-index: 1;
+	display: block;
+	font-size: 14px;
+	text-align: left;
+	padding: 16px 30px;
+	font-weight: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	background-color: #fff;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.navigation ul li .children a:before {
+	margin: 0;
+	height: 100%;
+}
+
+.navigation ul li .children li:hover a {
+	color: #fff !important;
+}
+
+.dl-menuwrapper {
+	display: none;
+}
+
+/* ================== Navigation WRAP CSS End ==================*/
+/* ================== SEARCH WRAP CSS START ==================*/
+.iq_header_1 .iq_search form {
+	position: relative;
+	width: 220px;
+}
+
+.iq_header_1 .iq_search form input[type="search"] {
+	width: 100%;
+	height: 36px;
+	border: 1px solid #d2d2d2;
+	padding: 8px 40px 8px 15px;
+}
+
+.iq_search.pull-right>button {
+	color: #fff;
+	float: left;
+	width: 100%;
+	padding: 8px 11px;
+	border-radius: 3px;
+}
+
+/*
+	  ==============================================================
+		   CAROUSEL BANNER WRAP CSS START
+	  ==============================================================
+*/
+.slider .slider-image:not(.slick-current) {
+	opacity: 0.7;
+}
+
+.slider .slider-image img {
+	height: 280px;
+	width: 100%;
+}
+
+.slider .slide-content {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: white;
+}
+
+.slider .slide-content h2,
+.slider .slide-content p {
+	margin: 0;
+	padding: 0;
+}
+
+.slider .slide-content button {
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+/* Style pour l'image sélectionnée */
+.slick-current img {
+	border-style: inset;
+	border-width: 3px;
+}
+
+.slider img {
+	max-width: 100%;
+	height: auto;
+	max-height: 300px;
+	width: auto;
+	border-radius: 10px;
+}
+
+.slider-progress {
+	height: 4px;
+	float: left;
+	width: 100%;
+	max-width: 100%;
+	background: #c6c6c6;
+	overflow: hidden;
+}
+
+.slider .slick-slide {
+	padding: 5px;
+}
+
+.slider .slick-dots {
+	width: 100%;
+	bottom: 13px;
+	height: auto;
+	/* position: absolute; */
+	text-align: center;
+}
+
+.gender {
+	display: flex;
+	justify-content: space-around;
+}
+
+.gender label {
+	margin-left: -60px;
+	margin-top: 12px;
+}
+
+/*
+	  ==============================================================
+		   BANNER WRAP CSS END
+	  ==============================================================
+*/
+.iner_banner {
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-image: url(images/inerpageslider.jpg);
+	padding: 70px 0 77px;
+	background-size: cover;
+	position: relative;
+	z-index: 2;
+	background-position: center;
+}
+
+.iner_banner:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #000000;
+	opacity: 0.85;
+	z-index: -1;
+}
+
+.iner_banner h5 {
+	font-size: 50px;
+	color: #fff;
+	margin-bottom: 18px;
+	position: relative;
+	display: inline-block;
+	z-index: 2;
+	text-transform: uppercase;
+}
+
+.iner_banner h5:before {
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: -4px;
+	position: absolute;
+	border-bottom: 1px solid;
+	width: 44px;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+.banner_iner_capstion {
+	float: left;
+	width: 100%;
+}
+
+.banner_iner_capstion ul li {
+	display: inline-block;
+	position: relative;
+}
+
+.banner_iner_capstion ul li:before {
+	color: #fff;
+	content: "/";
+	font-family: fontawesome;
+	left: -4px;
+	position: absolute;
+	top: 0;
+}
+
+.banner_iner_capstion ul li:first-child:before {
+	font-size: 0;
+}
+
+.banner_iner_capstion ul li>a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #fff;
+	padding: 0 5px;
+	display: block;
+}
+
+/*
+	  ==============================================================
+		   SEARCH COURSES WRAP CSS START
+	  ==============================================================
+*/
+.iq_inscription {
+	float: left;
+	width: 100%;
+	margin: -15px 0 0;
+	position: relative;
+	text-align: center;
+	border-top: 6px solid;
+	background-color: #fff;
+	padding: 23px 30px 30px;
+	border-bottom: 6px solid;
+	box-shadow: 0px -20px 60px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px -20px 60px 0px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0px -20px 60px 0px rgba(0, 0, 0, 0.1);
+}
+
+.iq_inscription h4 {
+	font-size: 34px;
+	position: relative;
+	display: inline-block;
+	padding: 0px 0px 24px;
+	margin: 0px 0px 30px 0px;
+}
+
+.iq_inscription h4:before {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	background-color: #c8c8c8;
+}
+
+.iq_inscription form {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+.iq_inscription .iq-input {
+	margin: 0 0 28.6px;
+}
+
+.iq_inscription .iq-input:last-child {
+	margin: 0;
+}
+
+.iq_inscription .link_1 {
+	width: 100%;
+}
+
+/*
+	  ==============================================================
+		   SEARCH COURSES WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   SGET BEST KNOWLEDGE WRAP CSS START
+	  ==============================================================
+*/
+.iq_best_knowledge_bg {
+	float: left;
+	width: 100%;
+	position: relative;
+	background-size: 50%;
+	background-color: #f0f0f0;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-image: url(../extra-images/front-ugnh-1.png);
+}
+
+.iq_knowledge_des {
+	margin: 0 0 30px;
+	padding: 0px 180px 0px 40px;
+}
+
+.iq_knowledge_des h5 {
+	color: #666666;
+	margin: 0px 0px 18px;
+}
+
+.iq_knowledge_des p {
+	margin: 0px 0px 24px;
+	font-size: 16px;
+}
+
+/*
+	  ==============================================================
+		   SGET BEST KNOWLEDGE WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   OUR FEATURED COURSEE WRAP CSS START
+	  ==============================================================
+*/
+/*Tab View Menu*/
+
+/*Tab View Detail Style*/
+.iq_course_list {
+	float: left;
+	width: 100%;
+	margin: 0 0 30px;
+	position: relative;
+	border: 1px solid #dfdfdf;
+	border-bottom: 5px solid #0000ff;
+}
+
+.custom-height {
+	height: 100%;
+}
+
+.iq_course_list figure {
+	border-top: 5px solid;
+}
+
+.iq_course_list_des {
+	float: left;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	padding: 10px 10px 0px 0px;
+}
+
+.iq_course_list_des h5 {
+	font-size: 22px;
+	margin: 0px 0px 18px;
+	display: inline-block;
+}
+
+.iq_course_list_des p {
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0px 0px 24px;
+}
+
+.iq_course_list_des ul {
+	float: left;
+	width: 100%;
+	position: relative;
+	padding: 17px 0px 1px;
+	border-top: 1px solid #dfdfdf;
+}
+
+.iq_course_list_des ul li {
+	float: left;
+	font-size: 15px;
+	position: relative;
+	line-height: normal;
+	padding: 0px 0px 0px 40px;
+}
+
+.iq_course_list_des ul li a {
+	color: #fdd90f;
+}
+
+.iq_course_list_des ul li:first-child {
+	padding-left: 0px;
+}
+
+.iq_course_list_des ul li>i {
+	margin-right: 10px;
+}
+
+.iq_course_list>.link_1 {
+	float: left;
+	width: 100%;
+}
+
+.iq_course_list_des .rating_down {
+	margin: 0px 0 -3px 0;
+}
+
+/*
+	  ==============================================================
+		   OUR GALLERY WRAP CSS START
+	  ==============================================================
+*/
+.iq_gallery_bg {
+	background-color: #f6f6f6;
+}
+
+/*Gallery Menu*/
+.iq_gallery_menu {
+	margin: 0px 0px 40px;
+}
+
+.iq_gallery_menu,
+.iq_gallery_menu ul {
+	float: left;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.iq_gallery_menu ul li {
+	margin-left: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+.iq_gallery_menu ul li:first-child {
+	margin-left: 0px;
+}
+
+.iq_gallery_menu ul li a {
+	display: block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 4px;
+	padding: 10px 15px;
+	line-height: normal;
+	text-transform: uppercase;
+	border: 2px solid #d2d2d2;
+}
+
+.iq_gallery_menu ul li:hover a,
+.iq_gallery_menu ul li a.active,
+.iq_gallery_menu ul li:focus a {
+	box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.15);
+}
+
+.iq_gallery_menu ul li a.active {
+	cursor: no-drop;
+}
+
+.main-gallery {
+	float: left;
+	width: 100%;
+	margin: 0 0 20px;
+}
+
+.filterable_container.main-gallery {
+	margin: 0 0 50px;
+}
+
+.filterable_container.main-gallery [class*="col"] {
+	padding: 0;
+	width: 33.2%;
+}
+
+/*GALLERY STYLE*/
+.thumb {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin: 0 0 30px;
+}
+
+.filterable_container.main-gallery .thumb {
+	margin: 0;
+}
+
+.link-wrapper {
+	width: 100%;
+}
+
+.link-wrapper>a {
+	color: #333;
+	width: 45px;
+	height: 45px;
+	font-size: 20px;
+	line-height: 45px;
+	margin: 0 5px 10px;
+	position: relative;
+	display: inline-block;
+	background-color: #fff;
+}
+
+.link-wrapper h6 {
+	float: left;
+	width: 100%;
+	color: #fff;
+	font-size: 18px;
+}
+
+.load-more {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.iq_gallery_bg .load-more {
+	margin: 0 0 30px;
+}
+
+/*
+	  ==============================================================
+		   OUR GALLERY WRAP CSS END
+	  ==============================================================
+*/
+/*
+	  ==============================================================
+		   GALLERY-2 WRAP CSS START
+	  ==============================================================
+*/
+.iq_gallery_style2 {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.iq_gallery_style2:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 0px;
+	height: 0px;
+	margin: auto;
+}
+
+/*Hover Style*/
+/*
+	  ==============================================================
+		   GALLERY-2 WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   UP COMMING EVENT WRAP CSS START
+	  ==============================================================
+*/
+.iq_upcomming_bg {
+	padding-bottom: 25px;
+}
+
+.iq_upcomming_event {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin: 0px 0px 30px;
+}
+
+.iq_upcomming_event figure:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	opacity: 0.1;
+	background-color: #000;
+}
+
+.iq_upcomming_event:hover figure:before {
+	inset: 10px;
+	opacity: 0.7;
+}
+
+.iq_upcomming_event figure img {
+	width: 100%;
+	height: 350px;
+}
+
+.iq_upcomming_des {
+	bottom: 15px;
+	width: 100%;
+	padding: 0px 30px;
+	position: absolute;
+	text-align: center;
+}
+
+.iq_upcomming_event:hover .iq_upcomming_des {
+	bottom: 50%;
+	transform: translateY(50%);
+	-o-transform: translateY(50%);
+	-ms-transform: translateY(50%);
+	-moz-transform: translateY(50%);
+	-webkit-transform: translateY(50%);
+}
+
+.iq_upcomming_des span {
+	opacity: 0;
+	color: #fff;
+	width: 70px;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 3px;
+	visibility: hidden;
+	margin: 0px auto 16px;
+	border: 2px solid #fff;
+	padding: 9px 15px 10px;
+	text-transform: uppercase;
+}
+
+.iq_upcomming_des p {
+	opacity: 0;
+	color: #fff;
+	padding: 6px 20px;
+	visibility: hidden;
+	margin: 0px 0px 13px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.iq_upcomming_event:hover .iq_upcomming_des span,
+.iq_upcomming_event:hover .iq_upcomming_des p {
+	opacity: 1;
+	visibility: visible;
+}
+
+.iq_upcomming_des h5 a {
+	color: #fff;
+	font-size: 22px;
+}
+
+/*HOVER*/
+.iq_upcomming_event:hover:before {
+	opacity: 0.75;
+	width: 93%;
+	height: 94%;
+}
+
+.iq_upcomming_event:hover p {
+	background-color: #fff;
+	color: #000000;
+}
+
+/*
+	  ==============================================================
+		   UP COMMING EVENT WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   NUMBER COUNTER WRAP CSS START
+	  ==============================================================
+*/
+.iq_number_count_bg {
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(../extra-images/labo-info.jpg);
+}
+
+.iq_number_count_bg:before {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	content: "";
+	opacity: 0.7;
+	height: 100%;
+	position: absolute;
+	background-color: #000;
+}
+
+.iq_counter {
+	float: left;
+	width: 100%;
+	margin: 0 0 26px;
+	position: relative;
+	text-align: center;
+}
+
+.iq_counter i {
+	color: #fff;
+	font-size: 50px;
+}
+
+.iq_counter span {
+	color: #fff;
+	display: block;
+	font-size: 60px;
+	line-height: normal;
+	margin: 0px 0px 13px;
+}
+
+.iq_counter h6 {
+	color: #fff;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.related-slider .slick-dots,
+.courses-slider .slick-dots {
+	position: static;
+	margin: 0 0 30px;
+}
+
+/*===========================================================
+		GALLERY MASNORY START
+===========================================================*/
+.edu_masonery {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.masnory_heading {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 26px;
+}
+
+.masnory_heading h3 {
+	font-size: 36px;
+	text-transform: capitalize;
+	color: #333333;
+	margin-top: -9px;
+}
+
+/*===============================================
+		Gallery  - 4 Column Start
+=================================================*/
+.col-4_thumb_1,
+.col-4_thumb_3,
+.col-4_thumb_2 {
+	float: left;
+	width: 100%;
+}
+
+.col-4thumb {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.col-4thumb figure img {
+	float: left;
+	width: 100%;
+}
+
+.col-4thumb figure {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+
+.col-4thumb figure:before {
+	bottom: 50%;
+	content: "";
+	left: 50%;
+	opacity: 0;
+	position: absolute;
+	right: 50%;
+	top: 50%;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.col-4thumb figure:hover:before {
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	top: 10px;
+
+}
+
+.col-4_thumb_1 .col-4thumb figure:hover:before,
+.col-4_thumb_2 .col-4thumb figure:hover:before {
+	opacity: 0.75;
+}
+
+.col-4_thumb_3 .col-4thumb figure:hover:before {
+	opacity: 0.55;
+}
+
+.col-4thumb:hover figcaption {
+	top: 50%;
+	opacity: 1;
+}
+
+.col-4thumb figcaption {
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 208%;
+	opacity: 0;
+}
+
+.col-4_thumb_1 .col-4thumb figcaption {
+	margin: -31px auto 0 auto;
+}
+
+.col-4_thumb_2 .col-4thumb figcaption {
+	margin: -40px auto 0 auto;
+}
+
+.col-4_thumb_3 .col-4thumb figcaption {
+	margin: -29px auto 0 auto;
+}
+
+.col-4_thumb_3 .col-4thumb figcaption a {
+	width: 59px;
+	height: 59px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	color: #fff;
+	line-height: 63px;
+	margin: auto;
+}
+
+.col-4_thumb_3 .col-4thumb figcaption a i {
+	display: inline-block;
+}
+
+.col-4thumb figcaption i {
+	display: block;
+	color: #fff;
+}
+
+.col-4_thumb_1 .col-4thumb figcaption i {
+	font-size: 36px;
+	margin-bottom: 8px;
+}
+
+.col-4_thumb_2 figcaption i {
+	font-size: 25px;
+	margin-bottom: 8px;
+}
+
+.col-4thumb figcaption a {
+	display: block;
+	font-size: 20px;
+	color: #fff;
+}
+
+.col-4thumb figcaption p {
+	font-size: 18px;
+	color: #fff;
+}
+
+/*===============================================
+		EVENT DETAIL
+=================================================*/
+.event-page {
+	float: left;
+	width: 100%;
+}
+
+/*
+	  ==============================================================
+		   CONTECT US PAGE ENDS
+	  ==============================================================
+*/
+/*
+	  ==============================================================
+		   ABOUT US PAGE START
+	  ==============================================================
+*/
+.about-us-section .text p {
+	float: left;
+	width: 100%;
+	margin: 0 0 21px;
+}
+
+.about-us-section .thumb {
+	margin: 0 0 30px;
+}
+
+.about-us-section .thumb:before {
+	position: absolute;
+	content: "";
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-us-section .thumb:after {
+	position: absolute;
+	content: "";
+	top: 10px;
+	left: 10px;
+	padding: 0px;
+	right: 10px;
+	bottom: 10px;
+	border: 3px solid #fff;
+}
+
+/*CENTER SLIDER*/
+.center-slider-wrap {
+	float: left;
+	width: 100%;
+	background-color: #f8f8f8;
+}
+
+.text {
+	float: left;
+	width: 100%;
+}
+
+/*TESTIMONIAL SLIDER*/
+.testimonial-slider .slick-dots {
+	position: relative;
+	margin: 0 0 30px;
+}
+
+.slick-slide .temoig-image {
+	border: none !important;
+	outline: none !important;
+}
+
+.testimonial {
+	float: left;
+	/* width: 100%; */
+	margin: 0 0 30px;
+	padding: 22px 30px 30px;
+	border: 1px solid;
+	height: 350px;
+}
+
+.testimonial p {
+	float: left;
+	width: 100%;
+	margin: 0 0 24px;
+}
+
+.testimonial .thumb_capstion {
+	float: none;
+	overflow: hidden;
+	width: auto;
+}
+
+.testimonial figure {
+	border-radius: 50%;
+}
+
+/* Scrollbar Style */
+/* For the "inset" look only */
+html {
+	overflow: auto;
+}
+
+body {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-moz-scrollbar {
+	width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+::-moz-scrollbar-track {
+	-moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255, 0, 0, 0.1);
+}
+
+::-moz-scrollbar-thumb {
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: rgba(255, 0, 0, 0.8);
+	-moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-moz-scrollbar-thumb:window-inactive {
+	background: rgba(255, 0, 0, 0.4);
+}
+
+.carousel .carousel-indicators button {
+	width: 1em;
+	height: 1em;
+	border-radius: 100%;
+}
+
+.img-para {
+	height: 230px;
+	width: 500px;
+	padding: 0px 0px 20px 0px;
+}
+
+/*
+	  ==============================================================
+		   Faculty Presentation
+	  ==============================================================
+*/
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.fsinfo img {
+	height: 450px;
+}
+
+/*
+	  ==============================================================
+		   Accordion
+	  ==============================================================
+*/
+.accordion-body {
+	font-size: 15px;
+	/* line-height: 20px; */
+	font-family: 'Lato', sans-serif;
+}
+
+.accordion-button {
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.event {
+	padding: 0px 10px 0px 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.event-image img {
+	width: 300px;
+	margin-right: 20px;
+}
+
+.event-description {
+	flex: 1;
+}
+
+.event-description span {
+	font-weight: bold;
+}
+
+.event-description h4 {
+	margin-top: 0;
+}
+
+.event-description p {
+	margin-bottom: 0;
+	max-height: 80px;
+	overflow: hidden;
+}
+
+.description-text {
+	max-height: 150px;
+	overflow: hidden;
+}
+
+.toggle-btn {
+	background: none;
+	border: none;
+	color: blue;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 5px 10px;
+}
+
+.toggle-btn:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,195 @@
+/*
+	  ============================================================
+		   Font Color
+	  ============================================================
+*/
+.testimonial h5,
+.iq_heading_1 span,
+.footer_strip h5 a,
+.iq_top_contact span:hover,
+.categries-list a:hover,
+.popular_thumb:hover h6 a,
+.iq_footer_social li a:hover,
+.iq_course_list_des:hover h5 a,
+.iq_gallery_menu ul li:hover a,
+.iq_gallery_menu ul li a.active,
+.iq_footer_newsletter h6,
+.widget h5 span,
+.btn a:hover,
+.centered {
+
+	color: rgb(223, 162, 29);
+
+}
+
+.iq_uni_title ul {
+	color: #828282;
+}
+
+.upcomming-event {
+	background-color: #f0f0f0;
+}
+
+/*
+	  ============================================================
+		   Background Color
+	  ============================================================
+*/
+
+.link_1,
+.fc-content,
+.flickrbadges,
+.tag-link:hover,
+.overlay1:before,
+/* .iq_contact_info, */
+.instractor_heading,
+.fc-toolbar .fc-button,
+.dl-menuwrapper .dl-menu,
+.fc-unthemed td.fc-today,
+.widget_archive li:hover,
+.navigation ul li a:before,
+.slider-progress .progress,
+.select ul.options li:hover,
+.iq_search.pull-right>button,
+.fc-toolbar button.fc-today-button,
+.popular_thumb .overflow-text>span,
+.iq_upcomming_event:hover figure:before,
+.slider .slick-dots li.slick-active button,
+.iqoniq-pagination .page-numbers:hover,
+.course-lesson-list li:hover,
+.iqoniq-pagination .page-numbers.current,
+.iq-progress .tooltip>.tooltip-inner,
+.iq-progress .progress-bar,
+.iq_footer_newsletter .iq-input-icon {
+	background-color: #0349fc;
+}
+
+.dl-menuwrapper button,
+.fsinfo {
+	background-color: #0349fc;
+	opacity: 0.8;
+}
+
+::-webkit-scrollbar-thumb,
+.iq_contact_info {
+	background-color: #e79800;
+}
+
+/*
+	  ============================================================
+		   Border Color
+	  ============================================================
+*/
+.iq-input select:focus,
+.widget-title span,
+.testimonial figure,
+.iq-selectric:focus,
+.iq_course_list figure,
+.iq-input textarea:focus,
+.fc-unthemed td.fc-today,
+.iq_footer_social li a:hover,
+.iq_gallery_menu ul li:hover a,
+.iq_gallery_menu ul li a.active,
+.iq-input input[type="text"]:focus,
+.iq-input input[type="email"]:focus,
+.iq-input input[type="date"]:focus,
+.iq-input input[type="radio"]:focus,
+.iq-input input[type="tel"]:focus,
+.courses-slider .slick-dots li button,
+.related-slider .slick-dots li button,
+.iqoniq-pagination .page-numbers:hover,
+.iqoniq-pagination .page-numbers.current,
+.testimonial-slider .slick-dots li button,
+.iq-progress .popOver+.tooltip>.tooltip-arrow,
+.iq_inscription,
+.slick-current img,
+.testimonial {
+	border-color: #0000ff;
+}
+
+/*
+	  ============================================================
+		   Transaction Effect
+	  ============================================================
+*/
+select,
+input,
+.tag-link,
+input.tag-link,
+.flickrbadges,
+.link-wrapper a,
+.overlay1:before,
+.categries-list a,
+.iq_upcomming_des,
+.flickrbadges img,
+.widget_archive li,
+.navigation ul li a,
+.iq_upcomming_des p,
+.iq_upcomming_des p,
+.popular_thumb h6 a,
+.widget_archive li a,
+.select ul.options li,
+.iq_upcomming_des span,
+.iq_footer_social li a,
+.course-lesson-list li,
+.iq_contact_info ul li i,
+.course-lesson-list li a,
+.iq_gallery_menu ul li a,
+.navigation ul li a:before,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.thumb_capstion h5,
+.iq_contact_info ul li i:after,
+.iqoniq-pagination .page-numbers,
+.iq_upcomming_event figure:before,
+.iq_top_contact span,
+.iq_banner .slick-dots li.slick-active button {
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+}
+
+/*
+	  ============================================================
+		   Box Shadow Effect
+	  ============================================================
+*/
+.iq_header_1 .iq_search form input[type="search"]:focus,
+.input-3 input[type="text"]:focus,
+.iq_footer_newsletter form input[type="email"]:focus,
+.iq_courses_field input[type="text"]:focus,
+.iq_courses_field input[type="email"]:focus,
+.iq_courses_field .selectric-open {
+	box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*
+	  ============================================================
+		  Content Selection
+	  ============================================================
+*/
+::selection {
+	background: #e37d39;
+	color: #ffffff;
+}
+
+::-webkit-selection {
+	background: #e37d39;
+	color: #ffffff;
+}
+
+::-moz-selection {
+	background: #e37d39;
+	color: #ffffff;
+}
+
+.link-wrapper>a:hover {
+	color: #fff;
+	box-shadow: 35px 35px 0px 0 #000 inset;
+}

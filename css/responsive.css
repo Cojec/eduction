@@ -1,0 +1,380 @@
+/*
+=================================================
+				UP FROM 1200PX
+=================================================
+*/
+@media (min-width: 1367px) and (max-width: 1680px) {}
+
+/*
+=================================================
+				UP FROM 1200PX
+=================================================
+*/
+@media (min-width: 1200px) and (max-width: 1366px) {
+	.iq_knowledge_des {
+		padding-right: 100px;
+	}
+}
+
+/*
+=================================================
+			FROM 992PX TO 1199PX
+=================================================
+*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navigation ul li a {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.iq_inscription h4 {
+		font-size: 30px;
+	}
+
+	.iq_knowledge_des {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.main-gallery [class*="col"] {
+		width: 33.3%;
+	}
+
+	.iq_contact_info ul li {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+
+	.flickr-wrap .flickrbadges {
+		width: 64px;
+		height: 64px;
+	}
+}
+
+@media (max-width: 400px) {
+	.centered {
+		text-align: center;
+		font-size: 24px;
+	}
+}
+
+/*
+=================================================
+			FROM 0PX TO 979PX    0300 7785536
+=================================================
+*/
+@media (max-width: 991px) {
+
+	.iner_banner {
+		padding: 80px 0 97px;
+	}
+
+	.navigation ul li a {
+		padding-right: 9px;
+		padding-left: 9px;
+	}
+
+	.navigation .children {
+		min-width: 200px;
+	}
+
+	.iq_banner .slick-dots {
+		bottom: 10px;
+	}
+
+	.iq_inscription {
+		margin: 0;
+	}
+
+	.iq_knowledge_des {
+		padding: 0;
+	}
+
+	.iq_knowledge_des .iq_heading_1 h4 {
+		font-size: 30px;
+	}
+
+	.iq_inscription .iq-input {
+		width: 50%;
+		padding: 0 15px;
+	}
+
+	.iq_inscription .iq-input .select ul.options {
+		left: 15px;
+		right: 15px;
+	}
+
+	.iq_inscription .iq-input:last-of-type {
+		width: 100%;
+	}
+
+	.iq_inscription form {
+		width: auto;
+		margin: 0 -15px;
+		float: none;
+	}
+
+	.iq_knowledge_des h5 {
+		font-size: 16px;
+	}
+
+	.iq_contact_info ul li {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+
+	.about-us-section .iq_heading_1 h4 {
+		font-size: 26px;
+	}
+}
+
+/*
+=================================================
+			FROM 768PX TO 979PX
+=================================================
+*/
+
+@media (min-width: 768px) and (max-width: 979px) {}
+
+/*
+=================================================
+			FROM 0PX TO 767PX
+=================================================
+*/
+@media (max-width: 767px) {
+	.dl-menuwrapper {
+		display: block;
+		float: right;
+		position: fixed;
+		right: 10px;
+		top: 10px;
+	}
+
+	.centered {
+		top: 30%;
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.fsinfo img {
+		height: 100%;
+	}
+
+	.img-para {
+		height: 150px;
+		width: 200px;
+		padding-right: 10px;
+	}
+
+	.slider img {
+		border: 0px solid white;
+	}
+
+	.slider .slide-content h2 {
+		font-size: 16px;
+	}
+
+	.iq_search.pull-right {
+		float: left !important;
+	}
+
+	.slider .slider-image {
+		opacity: 1 !important;
+	}
+
+	.slider .slider-image img {
+		height: 150px;
+		width: 100%;
+	}
+
+	.iq_upcomming_event figure img {
+		width: 100%;
+		height: 450px;
+	}
+
+	.edu_upmg_area .iq_course_list_des ul li {
+		padding: 0 0 0 10px;
+		width: 33.3%;
+	}
+
+	.navigation {
+		display: none;
+	}
+
+	/* Navigation dl-menu */
+	.dl-menu ul li:hover {
+		opacity: 0.5;
+		visibility: visible;
+		transform: rotateX(0deg);
+		-o-transform: rotateX(0deg);
+		-ms-transform: rotateX(0deg);
+		-moz-transform: rotateX(0deg);
+		-webkit-transform: rotateX(0deg);
+		background-color: black;
+	}
+
+	.dl-menu li:hover {
+		opacity: 0.5;
+		visibility: visible;
+		transform: rotateX(0deg);
+		-o-transform: rotateX(0deg);
+		-ms-transform: rotateX(0deg);
+		-moz-transform: rotateX(0deg);
+		-webkit-transform: rotateX(0deg);
+		background-color: black;
+	}
+
+	.iq_banner .slick-dots {
+		bottom: 10px;
+	}
+
+	.iq_best_knowledge_bg,
+	.iq_best_knowledge_bg .iq_heading_1 {
+		text-align: center;
+	}
+
+	.iq_best_knowledge_bg .iq_heading_1.text-left h4::before {
+		right: 0;
+	}
+
+	.iq_best_knowledge_bg {
+		background-image: none;
+	}
+
+	.iq_gallery_menu ul li {
+		margin-left: 5px;
+	}
+
+	.iq_gallery_menu ul li a {
+		font-size: 12px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.main-gallery [class*="col"] {
+		width: 49.9%;
+	}
+
+	.iq_contact_info ul li {
+		width: 100%;
+	}
+
+	.iq_contact_info ul li::before {
+		height: 1px;
+		right: 0;
+		top: auto;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+	}
+
+	.iq_uni_title {
+		padding: 0;
+	}
+
+	.about-us-section .iq_heading_1,
+	.about-us-section .text {
+		text-align: center;
+	}
+
+	.about-us-section .text {
+		margin: 0 0 30px;
+	}
+
+	.about-us-section .iq_heading_1.text-left h4::before {
+		right: 0;
+	}
+
+	.custom-height {
+		height: auto;
+	}
+}
+
+/*
+=================================================
+			FROM 0PX TO 0PX
+=================================================
+*/
+@media (min-width: 360px) and (max-width: 640px) {}
+
+/*
+=================================================
+			FROM 0PX TO 0PX
+=================================================
+*/
+@media (max-width: 480px) {
+	.fc button {
+		padding: 0;
+	}
+
+	.fc-basic-view .fc-body .fc-row {
+		min-height: 30px;
+	}
+
+	.edu_upmg_area .iq_course_list_des ul li {
+		width: auto;
+	}
+
+	.main-gallery [class*="col"] {
+		width: 100%;
+	}
+
+	.iq_header_1 .iq_ui_element {
+		padding: 0 0 0 150px;
+	}
+
+	.contact {
+		display: flex;
+		flex-direction: column;
+		justify-content: left;
+	}
+
+	.iq_inscription .iq-input {
+		width: 100%;
+	}
+
+	.iq_heading_1 h4 {
+		font-size: 24px;
+	}
+
+	.iq_course_list_des ul li {
+		padding-left: 16px;
+	}
+
+	.iq_gallery_menu ul li {
+		margin: 0 3px 6px;
+	}
+
+	.testimonial {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.iner_banner {
+		padding: 50px 0 57px;
+	}
+
+	.iner_banner h5 {
+		font-size: 40px;
+	}
+
+	.iq_footer_social li {
+		margin-right: 0;
+	}
+
+	.popular_thumb h6 a {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.event {
+		flex-direction: column;
+	}
+
+	.event-image img {
+		margin-right: 0;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+}
